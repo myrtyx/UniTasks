@@ -8,7 +8,7 @@ if people == 1:
 if knowCheck == "y":
   area = int(input(f"What is area of the room?\n>"))
   maxPeople = int(area/3)
-  if area > checkArea:
+  if area >= checkArea:
     print(f"Room is good for {people} {peoplePlurality}")
     print(f"Max count of people in this room is {maxPeople}")
   else:
@@ -20,7 +20,7 @@ else:
   area = lenth * width 
   checkArea = people * 3
   maxPeople = int(area/3)
-  if area > checkArea:
+  if area >= checkArea:
     print(f"Room is good for {people} {peoplePlurality}")
     print(f"Max count of people in this room is {maxPeople}")
   else:
