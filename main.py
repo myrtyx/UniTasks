@@ -9,7 +9,7 @@ def question01(s):
   return s
 
 def question02(s):
-  s = st[5]
+  s = st[4]
   return s
 
 def question03(s):
@@ -25,7 +25,7 @@ def question05(s):
   return s
 
 def question06(s):
-  s = st[2:]
+  s = st[-2]
   return s
 
 def question07(s):
